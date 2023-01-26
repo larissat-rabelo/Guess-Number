@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/dynamicStyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
@@ -13,7 +14,7 @@
 </head>
 <body>
     <header class="cabecalho">
-        <h1>GuessNumber</h1>
+        <h1>Guess Number</h1>
     </header>
     <main class="container">
         <form id="form">
@@ -29,9 +30,9 @@
 
         <section class="result-box result-box-default" id="result">
             <h2 id="status">Adivinhe o número sorteado!</h2>
-            <span id="attempt">Tentativas: 0</span>
+            <span>Tentativas: <span id="attempt">0</span></span>
         </section>
-        <button id="btnRestart">Jogar novamente</button>
+        <button id="btnRestart" onclick="newGame()">Jogar novamente</button>
 
     </main>
     <footer id="ftr">
