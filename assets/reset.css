@@ -1,0 +1,19 @@
+:root {
+    --white: #fafafa;
+    --blue: #00348A;
+    --light-blue: #0BBBD6;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
