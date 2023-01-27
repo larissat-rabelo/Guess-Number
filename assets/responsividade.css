@@ -1,0 +1,35 @@
+@media screen and (max-width: 400px) {
+    .cabecalho {
+        font-size: 1rem
+    }
+    #form {
+        width: 75%;
+        padding: 1.3rem;
+        margin-bottom: 1.3rem;
+    }
+    #result {
+        width: 75%;
+        padding: 1.6rem;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    #ftr {
+        padding: 0.7rem;
+    }
+}
+
+@media screen and (min-width:401px) and (max-width:768px) {
+    .cabecalho h1 {
+        font-size: 2rem;
+    }
+    #form {
+        width: 65%;
+    }
+    #result {
+        width: 65%
+    }
+    h2 {
+        font-size: 18px;
+    }
+}
